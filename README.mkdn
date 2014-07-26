@@ -11,7 +11,7 @@ You will need to set up some directories in your build environment.
 To create them run:
 
     mkdir -p ~/bin
-    mkdir -p ~/liquid
+    mkdir -p ~/cyanhacker
 
 Install the Repository
 ----------------------
@@ -25,14 +25,14 @@ Enter the following to download the "repo" binary:
 You may need to reboot for these changes to take effect. 
 Now enter the following to initialize the repository:
 
-    cd ~/liquid
+    cd ~/cyanhacker
 
 Repositories:
 ---------------
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/LiquidSmooth/android.git -b kitkat
+    repo init -u git://github.com/noname55804/android.git -b kitkat
 
     repo sync
     
