@@ -45,12 +45,6 @@
   <project path="dalvik" name="android_dalvik" remote="ls" revision="kitkat" />
   <project path="development" name="android_development" remote="sr" revision="kk4.4" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
-  <project path="device/htc/m8" name="noname55804/android_device_htc_m8" remote="gh" revision="kitkat" />
-  <project path="kernel/htc/msm8974" name="android_kernel_htc_msm8974" remote="lsd" revision="kitkat" />
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="lsd" revision="kitkat" />
-  <project path="hardware/qcom/display-caf-new" name="android_hardware_qcom_display-caf-new" remote="ls" revision="kitkat" />
-  <project path="hardware/qcom/media-caf-new" name="android_hardware_qcom_media-caf-new" remote="ls" revision="kitkat" />
-  <project path="vendor/htc" name="android_vendor_htc" remote="ls" revision="kitkat" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" revision="cm-11.0" />
