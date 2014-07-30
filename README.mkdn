@@ -1,6 +1,6 @@
-LiquidSmooth Source
+CyanHacker Source
 ===================
-To get started with LiquidSmooth, you'll need to get
+To get started with CyanHacker, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
 Create the Directories
@@ -32,7 +32,7 @@ Repositories:
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/noname55804/android.git -b kitkat
+    repo init -u git://github.com/CyanHacker/android.git -b kitkat
 
     repo sync
     
@@ -40,7 +40,7 @@ Before you continue --> run this in the terminal
 Building the System
 ---------------
 
-Build LiquidSmooth with the following command
+Build CyanHacker with the following command
 
     ./build-liquid.sh {options} {device}
 
