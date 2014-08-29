@@ -36,7 +36,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="android_build" remote="ls" revision="kitkat">
+  <project path="build" name="android_build" remote="ch" revision="kitkat">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -346,14 +346,14 @@
   <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="ls" revision="kitkat" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="ls" revision="kitkat"/>
-  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="ch" revision="android-4.4" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="ch" revision="kitkat-ch" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="ls" revision="kitkat" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="Mahdi-Rom/android_packages_apps_PackageInstaller" remote="gh" revision="kk-4.4.3" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="packages_apps_Provision" remote="sr" revision="kk4.4" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="ls" revision="kitkat" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ch" revision="kitkat3" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ch" revision="kitkat" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
@@ -373,6 +373,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ls" revision="kitkat" />
   <project path="packages/wallpapers/Liquid" name="android_wallpapers_liquid" remote="ls" revision="kitkat" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
+  <project path="extra/packages" name="cyanhacker_extra_packages" remote="ch" revision="kitkat" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
