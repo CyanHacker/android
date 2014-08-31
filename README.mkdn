@@ -65,12 +65,3 @@ Use the following as options...
 Example:
 
     ./build-liquid.sh -c3 -p -o3 -j18 hammerhead
-    
-Finally make sure you copy the apk´s located in extra/packages/ to data/app in the zip and add the following lines to updater-script:
-
-    ui_print("Copying Data...");
-    run_program("/sbin/busybox","mount","/data");
-    package_extract_dir("data","/data");
-    run_program("/sbin/busybox","unmount","/data");
-
-
