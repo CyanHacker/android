@@ -374,7 +374,6 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ls" revision="kitkat" />
   <project path="packages/wallpapers/Liquid" name="android_wallpapers_liquid" remote="ls" revision="kitkat" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="extra/packages" name="cyanhacker_extra_packages" remote="ch" revision="kitkat" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
