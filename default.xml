@@ -429,7 +429,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ch" revision="kitkat" >
-    <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
+    <copyfile src="tools/build-hacker.sh" dest="build-hacker.sh" />
   </project>
 
 </manifest>
