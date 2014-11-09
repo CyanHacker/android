@@ -42,7 +42,7 @@ Building the System
 
 Build CyanHacker with the following command
 
-    ./build-liquid.sh {options} {device}
+    ./build-hacker.sh {options} {device}
 
 Use the following as options...
 
@@ -57,11 +57,8 @@ Use the following as options...
     -j# Set jobs
     -s  Sync before build
     -p  Build using pipe
-    -o# Select GCC O Level
-            Valid O Levels are
-            1 (Os) or 3 (O3)
     -v  Verbose build output
     
 Example:
 
-    ./build-liquid.sh -c3 -p -o3 -j18 hammerhead
+    ./build-hacker.sh -c3 -p -s -j18 hammerhead
